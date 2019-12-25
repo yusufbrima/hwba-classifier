@@ -10,10 +10,10 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 #export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-5o4P6KR60-KjI1bHJydzRm-TWozDrTe'
-export_file_name = 'trained_model50.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=17DrYF2kNboCEaaD_DfMZd1MyKKHCb-xD'
+export_file_name = 'harvard_trained_model50.pkl'
 
-classes = ['glioma', 'meningioma', 'pituitary tumor']
+classes = ['Cerebrovascular Disease', 'Degenerative Disease', 'Inflammatory or Infectious Disease', 'Neoplastic Disease', 'Normal']
 path = Path(__file__).parent
 
 app = Starlette()
